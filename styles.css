@@ -1,0 +1,55 @@
+img{
+    width: 240px;
+}
+
+.row{
+    margin-right: 0 !important;
+}
+
+i{
+    font-size: 5vh;
+}
+
+i .badge{
+    font-size: 2vh !important;
+}
+
+.card-em{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar i{
+    color: brown;
+}
+
+.second-bar{
+    margin-top: 4em !important;
+}
+
+@media (min-width:768px) {
+    .news-input {
+        width:50%;
+    }
+}
+/* for fixed-top */
+body::before{
+    display:block;
+    content: '';
+    height: 60px;
+}
+.card-body a i:hover{
+    color: rgb(15, 51, 255) !important;
+}
+
+.card-body a i{
+    transition: 0.5s;
+    color: white !important;
+}
+
+.f-holder{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
